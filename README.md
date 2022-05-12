@@ -1,2 +1,2 @@
 # odds-and-ends
-> To use or sort later
+> currently some hosted assets for codepen projects
