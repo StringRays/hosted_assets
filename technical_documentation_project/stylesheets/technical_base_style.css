@@ -1,0 +1,81 @@
+/*Feel free to change background-color, font-size and 
+font-family, but probably leave box-sizing alone 
+Background-color sets the color you see at the very edges.*/
+html {
+  font-size: 14px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color: #63635A;
+}
+/*This sets the background color for the navbar and main 
+content*/
+body {
+  background: #E1E1BC;
+}
+/*Width is fixed for now but could be changed to other formats
+or adjusted manually with width of text.
+The border color I have set to a darker shade from the background color, 
+and it is used again in the #navID element near the end. If you 
+want to retain the same look, change these two colors at the same time across 
+all relevant elements. 
+*/
+nav {
+  float: left;
+  width: 200px;
+  height: 100%;
+  border-right: 2px solid #CACA86;
+  margin-right: 10px; /*This is used to keep the main content from touching the border*/
+}
+/*This defines the space between the lines in your navbar
+list elements. Other style properties could be added here as well
+(careful, using li would affect elements of this list and the other
+list in the main element.*/
+ol {
+  line-height: 2;
+}
+/*This lets you style the main content. It is set as a flexbox and all 
+styling included currently is for allowing it to move around 
+as the screen size changes*/
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center; 
+}
+/*This block styles the code elements. While you don't have to make 
+the background black and the color white, it's the easiest way to 
+help ensure people understand that the text is indeed an example of code. 
+Padding in this setting defines the space around the text and can be adjusted */
+code {
+  display: block;
+  color: white;
+  background-color: black;
+  width: 100%;
+  padding: 2px;
+  }
+/* This ensures the multi-line code elements don't have different formatting
+from the single line code elements*/   
+pre {
+  margin: 0;
+}
+/*This changes the styling on the Course Content (navbar header) section.*/
+#navID {
+  text-align: center;
+  border: 5px outset #CACA86;
+}
+/*below is a media query. Everything inside the brackets only applies once the 
+screen gets smaller, like for mobile devices. Changes here will only take effect
+in those conditions. Additional media queries could be added, or the styling itself
+here can be changed*/ 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #BEC9EA;
+  }
+  nav {
+    border-right: 2px solid #879ACF;
+  }
+  #navID {
+    border: 5px outset #879ACF;
+  }
+}
