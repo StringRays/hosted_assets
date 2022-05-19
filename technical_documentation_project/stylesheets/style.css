@@ -74,7 +74,12 @@ here can be changed*/
     background-color: #BEC9EA;
   }
   nav {
+    float: none;
     border-right: 2px solid #879ACF;
+    border-bottom: 2px solid #879ACF;
+  }
+  main {
+    padding: 5px;
   }
   #navID {
     border: 5px outset #879ACF;
