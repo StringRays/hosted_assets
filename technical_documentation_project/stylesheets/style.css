@@ -21,10 +21,9 @@ all relevant elements.
 */
 nav {
   float: left;
+  height: 100%;
   width: 200px;
-  height: auto;
   border-right: 2px solid #CACA86;
-  border-bottom: 2px solid #CACA86;
   margin-right: 10px; /*This is used to keep the main content from touching the border*/
 }
 /*This defines the space between the lines in your navbar
