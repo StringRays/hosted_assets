@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Documentation Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" text="text/css" href="">
+  </head>
+<!--The above code sets the laanguage as english, and the screen to device 
+size, while linking the CSS for freecodecamp. Below this the body begins-->
+<body>
+  <nav id="navbar">
+    <header id="navID"><h2>Course Content</h2></header>
+    <ol>
+<!--If you want to add more items to the navbar, copy paste this: 
+      <li>
+        <a href="#" class="nav-link"></a>
+      </li>
+    inside the <ol> element and enter your title after the # and before </a>
+    !important: also copy paste: 
+      <section id="">
+      </section>  
+    into the <main> element, and enter the same text between the 
+    the parantheses. This creates the corresponding section, and ensures
+    that the link you just created in the navbar will jump to it when 
+    clicked-->      
+      <li>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+      </li>
+      <li>  
+        <a href="#First_Step" class="nav-link">First Step</a>
+      </li>
+      <li>    
+        <a href="#Second_Step" class="nav-link">Second Step</a>
+      </li>  
+      <li>  
+        <a href="#Third_Step" class="nav-link">Third Step</a>
+      </li>  
+      <li>  
+        <a href="#Wrapping_Up" class="nav-link">Wrapping Up</a>
+      </li>
+    </ul>
+  </nav>
+  <!--
+    The code below creates the content you see on the right. This 
+  is where you will be writing your content. Everything above these
+  lines has simply been navigation buttons and page setup
+  -->
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <!-- you can change any <h1> tags to <h2>, <h3>, <h4>, <h5>, or <h6> to
+        easily decrease the size.-->
+      <header><h1>Introduction</h1></header>
+      <!--insert as many <p></p> elements as you would like-->
+      <p>This is a place where you can introduce the topic you are going to be teaching about.</p>
+      <p>Let's say, for example, that you are going to be teaching a beginning Python course. You might start with this piece of code:</p>
+      <!--you can also insert more <code></code> elements-->
+      <code>print("Hello world")</code>
+    </section>
+    <section class="main-section" id="First_Step">
+      <header><h1>First Step</h1></header>
+      <p>Here, you can fill in text.</p>
+      <p>Depending on the project you may make lists of:</p>
+      <ul><!--change the "ul" to "ol" at the beginning and the end of this
+          list to easily change the bullet points to numbers-->
+        <li>programs</li>
+        <li>prerequisite knowledge</li>
+        <li>external resources</li>
+        <li>links to internal resources</li>
+        <li>types of commands</li>
+      </ul>
+      <code>print("Is it time for a break yet?")</code>
+    </section>
+    <section class="main-section" id="Second_Step">
+      <header><h1>Second Step</h1></header>
+      <p>Here you can elaborate yet again</p>
+      <p>and again</p>
+      <p>and again</p>
+      <p>and again</p>
+      <p>and again</p>
+      <p>and again</p>
+      <p>and again</p>
+      <p>and again</p>
+      <p>and again</p>
+      <p>and again</p>
+      <p>and again</p>
+      <p>and again....</p>
+      <p>for as long as you like. Simply click in the html and hold <samp>Shift</samp> and use the <samp>arrow</samp> key to highlight the text you would like to copy. Then, release and and press <samp>Ctrl + C</samp>. Now, you can press <samp>Ctrl + V</samp> to paste the text you copied </p>
+      <p>After you explain the next step, you can add more code to to show some examples</p>
+      <!--to retain the formatting of code, use the <pre></pre> tag in addition
+      to the <code></code> tag-->
+<code><pre>
+if mood="bored":
+  print("Time for a Break")
+else:
+  print("Keep Going!")
+</pre></code>
+    </section>
+    <section class="main-section" id="Third_Step">
+      <header><h1>Third Step</h1></header>
+      <p>You can add as many steps as you like, or break things up bry topic.</p>
+      <p>Subtopics could be added or linked to in the side menu.</p>
+      <code>print("Almost done!")</code>
+    </section>
+    <section class="main-section" id="Wrapping_Up">
+      <header><h1>Wrapping Up</h1></header>
+      <p>Here is where you can draw some final conclusions, display an output, muse about future applications of the project, or in general fill space however  you so choose.</p>
+      <p>Remember to review your page, and ask someone else to look over it if you can feel your eyes swimming.</p>
+      <code>print("That's All, Folks")</code>
+<!--remember to close all of your tags!-->
+    </section>
+    </main>
+  </body>
+</html>
