@@ -1,2 +1,2 @@
 # odds-and-ends
-> hosted assets for codepen projects
+> hosted assets for freecodecamp projects
